@@ -15,6 +15,9 @@ try:
 
         #查询数据
         """
+        # fetchone()获取结果的下一行
+        # fetchmany(size)获取结果的下size行
+        # fetchall() 获取结果中剩下的所有行
         result = cursor.fetchall()
         print(result)
         """
